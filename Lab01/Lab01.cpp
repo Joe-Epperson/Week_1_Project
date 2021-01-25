@@ -17,7 +17,7 @@ int main() {
 	cin >> velocity;
 
     // Calculate the time it takes here.
-	time = 0;
+	time = distance / velocity ;
 
 	cout << endl;
 	cout << "At " << velocity << " mph it will take " << time << " hours to travel " << distance << " miles." << endl;
